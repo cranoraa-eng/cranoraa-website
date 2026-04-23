@@ -1,0 +1,64 @@
+.nigga-button {
+  background-color: rgba(0, 0, 0, 0.918);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 20px;
+  transition: opacity 0.5s;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  vertical-align: top;
+}
+
+.nigga-button:hover {
+  opacity: 0.75;
+}
+
+.nigga-button:active {
+  opacity: 0.30;
+}
+
+.join-button:hover {
+  background-color: blue;
+  color: white;
+}
+
+.join-button:active {
+  opacity: 0.30;
+}
+
+.join-button {
+  background-color: none;
+  color: blue;
+  border-color: blue;
+  height: 50px;
+  width: 150px;
+  border-radius: 20px;
+  border-style: solid;
+  cursor: pointer;
+  margin-right: 20px;
+  transition: background-color 0.5s,
+    color 0.5s;
+  vertical-align: top;
+}
+
+.moan-button {
+  height: 50px;
+  width: 150px;
+  background-color: pink;
+  color: black;
+  border-radius: 2px;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+  transition: opacity 0.5s;
+  transition: box-shadow 0.3s;
+  vertical-align: top;
+}
+
+.moan-button:hover {
+  box-shadow: -5px 5px 10px rgba(0, 0, 0, 0.651);
+}
